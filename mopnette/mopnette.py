@@ -52,8 +52,7 @@ def quantize_model(model, backend):
 
     return
 
-__all__ = ['QuantizableResNet', 'resnet18', 'resnet50',
-           'resnext101_32x8d']
+__all__ = ['QuantizableResNet', 'resnet18', 'resnet50']
 
 
 class QuantizableBasicBlock(BasicBlock):

@@ -3,7 +3,7 @@ import codecs
 import os
 
 
-VERSION = '0.0.10'
+VERSION = '0.0.11'
 DESCRIPTION = 'Wrapper for quantizing vision models'
 LONG_DESCRIPTION = 'A package that allows to build quantized resnet vision models.'
 
@@ -17,7 +17,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['torch', 'fastai'],
+    install_requires=['torch==1.7.1', 'fastai'],
     keywords=['python', 'image', 'quantization', 'pytorch'],
     classifiers=[
         "Development Status :: 1 - Planning",
