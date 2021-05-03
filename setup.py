@@ -15,7 +15,7 @@ setup(
     author_email="alswang18@gmail.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=['torch', 'fastai'],
     keywords=['python', 'image', 'quantization', 'pytorch'],
